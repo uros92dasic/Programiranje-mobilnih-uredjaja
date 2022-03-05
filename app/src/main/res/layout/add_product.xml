@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewProduct">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="165dp"
+        android:layout_height="45dp"
+        android:text="@string/nazivProizvoda"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintVertical_bias="0.050" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="165dp"
+        android:layout_height="45dp"
+        android:text="@string/cena"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintVertical_bias="0.180" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="165dp"
+        android:layout_height="45dp"
+        android:text="@string/zemlja"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintVertical_bias="0.320" />
+
+    <TextView
+        android:id="@+id/numProduct"
+        android:layout_width="165dp"
+        android:layout_height="45dp"
+        android:text="@string/brojProizvoda"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintVertical_bias="0.455" />
+
+    <TextView
+        android:id="@+id/standard"
+        android:layout_width="165dp"
+        android:layout_height="45dp"
+        android:text="@string/nacinSlanja"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintVertical_bias="0.575" />
+
+    <TextView
+        android:id="@+id/fast"
+        android:layout_width="165dp"
+        android:layout_height="45dp"
+        android:text="@string/brzaPosta"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintVertical_bias="0.690" />
+
+    <EditText
+        android:id="@+id/addName"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintVertical_bias="0.030" />
+
+    <EditText
+        android:id="@+id/addPrice"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintVertical_bias="0.160" />
+
+    <EditText
+        android:id="@+id/addCountry"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintVertical_bias="0.300" />
+
+    <EditText
+        android:id="@+id/addNumProduct"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <EditText
+        android:id="@+id/addStandardDelivery"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintVertical_bias="0.565" />
+
+    <EditText
+        android:id="@+id/addFastDelivery"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintVertical_bias="0.680" />
+
+    <Button
+        android:id="@+id/escape"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="45dp"
+        android:text="@string/nazad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="45dp"
+        android:text="@string/dodaj"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

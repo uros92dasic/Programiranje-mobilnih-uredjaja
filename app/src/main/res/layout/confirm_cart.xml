@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="160dp">
+
+        <EditText
+            android:id="@+id/changeDeliveryAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/opciono"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <RadioButton
+                android:id="@+id/rbStandard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/standard"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbFast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/brzi"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbSlow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sporiji"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/confirmDelivery"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="@string/potvrdiIsporuku" />
+
+        <Button
+            android:id="@+id/escape"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="@string/nazad" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

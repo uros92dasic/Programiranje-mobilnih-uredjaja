@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Projekat</string>
+
+    <string name="unesiIme">Unesite Vaše ime: </string>
+    <string name="unesiPrezime">Unesite Vaše prezime: </string>
+    <string name="unesiEmail">Unesite e-mail adresu: </string>
+    <string name="unesiAdresu">Unesite adresu (ulica i broj): </string>
+    <string name="unesiDrzavu">Unesite naziv države: </string>
+    <string name="potvrdi">Potvrdi</string>
+
+    <string name="prikaz">Prikaz proizvoda</string>
+    <string name="dodavanje">Dodavanje proizvoda</string>
+    <string name="korpa">Korpa proizvoda</string>
+    <string name="odjava">Odjava</string>
+
+    <string name="lista">Lista proizvoda koje možete kupiti: </string>
+
+    <string name="nazad">Nazad</string>
+    <string name="dodaj">Dodaj</string>
+
+    <string name="prozivodIzmeniDodaj">Kliknite na proizvod da izmenite informacije ili na dugme da dodate novi proizvod: </string>
+    <string name="dodajProizvod">Dodaj proizvod</string>
+
+    <string name="nazivProizvoda">Naziv proizvoda: </string>
+    <string name="cena">Cena: </string>
+    <string name="zemlja">Zemlja isporuke: </string>
+    <string name="brojProizvoda">Broj dostupnih proizvoda: </string>
+    <string name="nacinSlanja">Standardna isporuka (broj dana): </string>
+    <string name="brzaPosta">Brza isporuka (broj dana): </string>
+    <string name="izmeni">Izmeni proizvod</string>
+
+    <string name="potvrdiIsporuku">Potvrdi isporuku</string>
+    <string name="otkaziProizvod">Otkaži proizvod</string>
+
+    <string name="brojDana">Broj dana isporuke: </string>
+    <string name="kupiProizvod">Kupi proizvod</string>
+
+    <string name="opciono">Opciono možete promeniti adresu za dostavu, u suprotnom se uzima ona pri registraciji:</string>
+    <string name="standard">Standardna isporuka.</string>
+    <string name="brzi">Brza isporuka (+20%).</string>
+    <string name="sporiji">Sporija isporuka (-10%).</string>
+
+    <string name="promeniProizvod">Promeni proizvod</string>
+
+    <string name="dodajUKorpu">Dodaj u korpu</string>
+
+    <string name="zeljeniBroj">Željeni broj proizvoda: </string>
+
+    <string name="jedan">1</string>
+</resources>
